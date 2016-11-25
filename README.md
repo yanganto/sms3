@@ -1,7 +1,7 @@
 # sms3
 
-This package use to send SMS message for python 3.
-The source code is modified from pythons sms package(author: Amos Latteier) within MIT licence.
+This package is used to send SMS message for python 3.
+The source code is modified from python 2 sms package(author: Amos Latteier) within MIT license.
 
 ## Usage
 ```python
