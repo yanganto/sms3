@@ -92,7 +92,7 @@ class Modem(object):
                 if line == '\r\n':
                     text += '\n'
                 else:
-                    text += line.strip()
+                    text += line.strip().decode('ascii')
         if text is not None:
             msgs.append(Message(index, self, number, date, text))
         return msgs
