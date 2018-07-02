@@ -12,3 +12,8 @@ The source code is modified from python 2 sms package(author: Amos Latteier) wit
 
 ## License
 MIT
+
+## Contributor
+- Amos Latteier
+- [Antonio Yang](https://github.com/yanganto)
+- [Семён Марьясин](https://github.com/MarSoft)

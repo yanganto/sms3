@@ -4,7 +4,7 @@ setup(
     name="sms3",
     packages=find_packages(),
     install_requires=['pyserial'],
-    version="0.0.1",
+    version="0.0.2",
     description="A library for sending TXT message",
     author="yanganto",
     author_email="yanganto@gmail.com",
