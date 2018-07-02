@@ -77,7 +77,8 @@ class Modem(object):
         text = None
         index = None
         date = None
-        for line in self._command('AT+CMGL="ALL"')[:-1]:
+        all_msgs = '"ALL"' if self._mode == MODE.TEXT else '4'
+        for line in self._command('AT+CMGL=%s' % all_msgs)[:-1]:
             m = pat.match(line.decode('ascii'))
             logging.debug(m)
             if m is not None:
